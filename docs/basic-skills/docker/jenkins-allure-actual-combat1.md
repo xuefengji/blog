@@ -57,3 +57,5 @@ System Configuration 中选择 Manage Plugins
 完成配置后，在创建的项目中点击构建，构建成功后，可以看到 console 控制台的输出
 
 ![jenkins](./images/jenkins13.png)
+
+（完）

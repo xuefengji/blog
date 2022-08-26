@@ -45,3 +45,5 @@ docker exec -it nginx01 bash
 
 - 不需要
 - docker run 命令提供了 -v 参数，它可以做到目录映射，即数据卷挂载
+
+（完）

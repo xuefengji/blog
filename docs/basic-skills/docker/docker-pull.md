@@ -33,3 +33,4 @@ docker pull tomcat === docker pull docker.io/library/tomcat:latest
 
 ![pull](./images/pull2.png)
 
+（完）

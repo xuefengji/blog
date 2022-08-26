@@ -230,3 +230,4 @@ docker run -it --volumes-from nginx01 --name nginx03 nginx /bin/bash
 + 容器之间的信息传递，数据卷的生命周期一直存在到没有容器使用
 + 一但数据持久化到本地，本地的数据是不会被删除
 
+（完）

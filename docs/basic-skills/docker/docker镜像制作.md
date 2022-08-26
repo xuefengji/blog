@@ -52,3 +52,6 @@ COPY jpress.war /usr/local/tomcat/webapps 将jpress.war文件拷贝至tomcat的w
 
   ![jpress1](./images/jpress1.jpg)
 
+
+
+（完）

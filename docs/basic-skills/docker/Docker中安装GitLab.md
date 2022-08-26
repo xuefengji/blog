@@ -107,3 +107,4 @@ sidekiq['concurrency']=25
 
 ![gitlab](./images/gitlab02.png)
 
+（完）

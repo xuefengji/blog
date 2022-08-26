@@ -76,3 +76,5 @@ docker inspect --format="{{json .Config}}" container | jq
 
 ## 参考资料
 [官方文档](https://docs.docker.com/engine/reference/commandline/inspect/)
+
+（完）
