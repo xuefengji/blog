@@ -66,7 +66,7 @@ module.exports = [
 			},
 			{
 				title: '取样器之 HTTP Request',
-				path: '/test/tools/Jmeter/HTTP请求',
+				path: '/test/tools/Jmeter/http-request',
 				collapsable: true
 			},
 			{
