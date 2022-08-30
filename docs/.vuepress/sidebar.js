@@ -8,7 +8,7 @@ module.exports = {
   '/test/frameworks/selenium/': require('../test/frameworks/selenium/sidebar'),
   '/test/frameworks/pytest/': require('../test/frameworks/pytest/sidebar'),
   '/test/tools/Jmeter/': require('../test/tools/Jmeter/sidebar'),
-  '/test/tools/Fiddler/': require('../test/tools/Fiddler/sidebar'),
+  '/test/tools/fiddler/': require('../test/tools/fiddler/sidebar'),
   '/test/interview/': require('../test/interview/sidebar'),
   /* --------- 必知必会 --------- */
   '/basic-skills/git/': require('../basic-skills/git/sidebar'),

@@ -33,7 +33,7 @@ module.exports = [
         text: '测试工具',
         items: [
           { text: 'Jmeter', link: '/test/tools/Jmeter/' },
-          { text: 'Fiddler', link: '/test/tools/Fiddler/' },
+          { text: 'fiddler', link: '/test/tools/fiddler/' },
         ]
       }
     ]

@@ -21,7 +21,7 @@ module.exports = [
         children: [
           {
             title: 'JMeter 返回数据乱码问题',
-            path: '/project/problems/Jmeter/JMeter返回数据乱码问题',
+            path: '/project/problems/Jmeter/jmeter-messy-code',
           }
         ]
       }
