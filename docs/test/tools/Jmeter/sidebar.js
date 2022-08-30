@@ -116,12 +116,12 @@ module.exports = [
 			},
 			{
 				title: '控制器之 Random 控制器',
-				path: '/test/tools/Jmeter/Random-controller',
+				path: '/test/tools/Jmeter/random-controller',
 				collapsable: true
 			},
 			{
 				title: '控制器之 Switch 控制器',
-				path: '/test/tools/Jmeter/Random-controller',
+				path: '/test/tools/Jmeter/switch-controller',
 				collapsable: true
 			},
 			{
