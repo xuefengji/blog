@@ -81,7 +81,7 @@ module.exports = [
 			},
 			{
 				title: 'HTTP 请求默认值',
-				path: '/test/tools/Jmeter/HTTP请求默认值',
+				path: '/test/tools/Jmeter/http-request-default',
 				collapsable: true
 			},
 			{
