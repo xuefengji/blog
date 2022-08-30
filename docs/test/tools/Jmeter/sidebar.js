@@ -132,27 +132,27 @@ module.exports = [
 			{
 				title: '后置处理器之 JSON 提取器',
 				path: '/test/tools/Jmeter/Json提取器',
-				collapsable: true
+				collapsable: false
 			},
 			{
 				title: '后置处理器之正则提取器',
 				path: '/test/tools/Jmeter/正则提取器',
-				collapsable: true
+				collapsable: false
 			},
 			{
 				title: '参数化之用户参数',
 				path: '/test/tools/Jmeter/用户参数',
-				collapsable: true
+				collapsable: false
 			},
 			{
 				title: '参数化之 CSV 数据配置',
 				path: '/test/tools/Jmeter/CSV',
-				collapsable: true
+				collapsable: false
 			},
 			
 			{
 				title: '参数化之用户自定义参数',
-				path: '/test/tools/Jmeter/用户自定义的变量',
+				path: '/test/tools/Jmeter/user-defined-variables',
 				collapsable: true
 			},
 
