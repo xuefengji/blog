@@ -106,7 +106,7 @@ module.exports = [
 			},
 			{
 				title: '控制器之 While 控制器',
-				path: '/test/tools/Jmeter/While控制器',
+				path: '/test/tools/Jmeter/while-controller',
 				collapsable: true
 			},
 			{
