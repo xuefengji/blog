@@ -163,17 +163,5 @@ module.exports = [
 			},
 
     ]
-  },
-	{
-		title: 'JMeter 相关问题',
-		path: '/test/tools/Jmeter/',
-		collapsable: false,
-		children: [
-			{
-				title: 'JMeter 返回数据乱码问题',
-				path: '/test/tools/Jmeter/JMeter返回数据乱码问题',
-				collapsable: true
-			},
-		]
-	}
+  }
  ]
