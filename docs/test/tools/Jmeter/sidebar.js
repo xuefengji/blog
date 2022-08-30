@@ -77,7 +77,7 @@ module.exports = [
 			{
 				title: '取样器之 JDBC Request',
 				path: '/test/tools/Jmeter/JDBC-Request',
-				collapsable: true
+				collapsable: false
 			},
 			{
 				title: 'HTTP 请求默认值',
@@ -102,7 +102,7 @@ module.exports = [
 			{
 				title: '控制器之 ForEach 控制器',
 				path: '/test/tools/Jmeter/ForEach-controller',
-				collapsable: true
+				collapsable: false
 			},
 			{
 				title: '控制器之 While 控制器',
@@ -111,7 +111,7 @@ module.exports = [
 			},
 			{
 				title: '控制器之 If 控制器',
-				path: '/test/tools/Jmeter/If控制器',
+				path: '/test/tools/Jmeter/if-controller',
 				collapsable: true
 			},
 			{
