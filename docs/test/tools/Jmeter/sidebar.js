@@ -70,6 +70,11 @@ module.exports = [
 				collapsable: true
 			},
 			{
+				title: 'JDBC 连接配置',
+				path: '/test/tools/Jmeter/jdbc-configuration',
+				collapsable: true
+			},
+			{
 				title: '取样器之 JDBC Request',
 				path: '/test/tools/Jmeter/JDBC-Request',
 				collapsable: true
@@ -77,11 +82,6 @@ module.exports = [
 			{
 				title: 'HTTP 请求默认值',
 				path: '/test/tools/Jmeter/HTTP请求默认值',
-				collapsable: true
-			},
-			{
-				title: 'JDBC 连接配置',
-				path: '/test/tools/Jmeter/JDBC连接配置',
 				collapsable: true
 			},
 			{
