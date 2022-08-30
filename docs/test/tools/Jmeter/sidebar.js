@@ -91,7 +91,7 @@ module.exports = [
 			},
 			{
 				title: '控制器之 Once Only 控制器 ',
-				path: '/test/tools/Jmeter/Once-Only',
+				path: '/test/tools/Jmeter/once-only',
 				collapsable: true
 			},
 			{
