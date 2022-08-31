@@ -29,11 +29,16 @@ module.exports = [
 			path: '/test/theory/auto-test/yaml',
 			collapsable: true
 			},
-		   {
+			{
 			title: '关键字驱动设计',
 			path: '/test/theory/auto-test/keyword-driven-design',
 			collapsable: true
 		   },
+			{
+				title: 'Appium 原理',
+				path: '/test/theory/auto-test/appium-theory',
+				collapsable: true
+			},
     ]
   },
 	{

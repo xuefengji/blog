@@ -1,6 +1,6 @@
 # Appium 原理
 
- Appium  是目前主流的移动应用自动化测试框架， 具有极强的灵活性：
+Appium  是目前主流的移动应用自动化测试框架， 具有极强的灵活性：
 
 - 测试用例的实现支持多种编程语言，比如 Java、Ruby、Python 等
 - Appium Server 支持多平台，既有基于 Mac 的版本，也有基于 Windows 的版本
