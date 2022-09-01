@@ -1,7 +1,7 @@
 module.exports = [
   {
     title: 'JMeter 基础介绍',
-		path: '/test/tools/Jmeter/',
+	path: '/test/tools/Jmeter/',
     collapsable: false,
     children: [
 			{
@@ -76,8 +76,8 @@ module.exports = [
 			},
 			{
 				title: '取样器之 JDBC Request',
-				path: '/test/tools/Jmeter/JDBC-Request',
-				collapsable: false
+				path: '/test/tools/Jmeter/jdbc-request',
+				collapsable: true
 			},
 			{
 				title: 'HTTP 请求默认值',
@@ -131,8 +131,8 @@ module.exports = [
 			},
 			{
 				title: '后置处理器之 JSON 提取器',
-				path: '/test/tools/Jmeter/Json提取器',
-				collapsable: false
+				path: '/test/tools/Jmeter/jdbc-configuration',
+				collapsable: true
 			},
 			{
 				title: '后置处理器之正则提取器',
