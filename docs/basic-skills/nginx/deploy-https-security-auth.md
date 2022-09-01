@@ -7,9 +7,9 @@
 网站启用 https 以后会在 SEO 和安全性方面都有一定的好处，这里不展开讲。已经启用 https 的网站，一个比较直观的变化就是浏览器的域名前面有一把小锁的图标，如下所示：
 
 <div style="text-align: center;">
-  <img src="./assets/web-sites-with-https-enabled.png" height="200" alt="Web sites with HTTPS enabled">
-  <p style="text-align: center; color: #888;">（启用 https 的网站）</p>
+  <img src="./images/web-sites-with-https-enabled.png" height="200" alt="Web sites with HTTPS enabled">
 </div>
+
 
 该功能用到了 `http_ssl_module` 这个模块，默认情况下 ssl 模块并未被安装，如果要使用该模块则需要在编译 Nginx 时指定 `--with-http_ssl_module` 参数，详见《[Nginx 编译安装](/basic-skills/nginx/installation-of-nginx/#编译安装 "Nginx 编译安装")》
 
@@ -20,9 +20,9 @@
 购买成功后，通过阿里云后台依次进入 控制台 => 产品与服务 => 安全（云盾）=> SSL 证书（应用安全），找到自己将要使用的证书，点击下载，然后选择对应 Nginx 服务器的证书，如下图所示：
 
 <div style="text-align: center;">
-  <img src="./assets/download-ssl-for-nginx.png" height="350" alt="下载用于 Nginx 服务器的证书">
-  <p style="text-align: center; color: #888;">（下载用于 Nginx 服务器的证书，未来界面可能会变化）</p>
+  <img src="./images/download-ssl-for-nginx.png" height="350" alt="下载用于 Nginx 服务器的证书">
 </div>
+
 
 证书下载下来后解压，有两份文件：
 
