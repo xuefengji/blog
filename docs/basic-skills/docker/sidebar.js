@@ -6,7 +6,7 @@ module.exports = [
     children: [
     		{
 				title: 'docker 安装',
-				path: '/basic-skills/docker/docker安装',
+				path: '/basic-skills/docker/docker-install',
 				collapsable: true
 			},
 			{
@@ -16,7 +16,7 @@ module.exports = [
 			},
 			{
 				title: '配置镜像加速',
-				path: '/basic-skills/docker/配置镜像加速',
+				path: '/basic-skills/docker/mirror-accelerate',
 				collapsable: true
 			},
 			{
@@ -26,12 +26,12 @@ module.exports = [
 			},
 			{
 				title: 'docker run 的流程和原理',
-				path: '/basic-skills/docker/docker-run流程和原理',
+				path: '/basic-skills/docker/docker-run-process-principle',
 				collapsable: true
 			},
 			{
 				title: 'docker images 查看镜像',
-				path: '/basic-skills/docker/images命令',
+				path: '/basic-skills/docker/images-command',
 				collapsable: true
 			},
 			{
@@ -89,11 +89,11 @@ module.exports = [
 				path: '/basic-skills/docker/docker-top',
 				collapsable: true
 			},
-			{
-				title: 'docker log 命令',
-				path: '/basic-skills/docker/docker-log',
-				collapsable: true
-			},
+			//{
+			//	title: 'docker log 命令',
+			//	path: '/basic-skills/docker/docker-log',
+			//	collapsable: true
+			//},
 			{
 				title: 'docker commit 提交镜像',
 				path: '/basic-skills/docker/docker-commit',
@@ -130,12 +130,12 @@ module.exports = [
     children: [
     		{
 				title: 'Nginx 应用安装',
-				path: '/basic-skills/docker/Nginx部署',
+				path: '/basic-skills/docker/nginx-deploy',
 				collapsable: true
 			},
 			{
 				title: 'MySQL 安装和数据持久化',
-				path: '/basic-skills/docker/MySql',
+				path: '/basic-skills/docker/mySql',
 				collapsable: true
 			},
 			{
@@ -145,12 +145,12 @@ module.exports = [
 			},
 			{
 				title: 'GitLab 应用安装',
-				path: '/basic-skills/docker/Docker中安装GitLab',
+				path: '/basic-skills/docker/docker-install-gitlab',
 				collapsable: true
 			},
 			{
 				title: 'Jenkins 容器中搭建 Python+Pytest+Allure 环境',
-				path: '/basic-skills/docker/jenkins_pytest_allure',
+				path: '/basic-skills/docker/jenkins-pytest-allure',
 				collapsable: true
 			},
 			{
@@ -160,7 +160,7 @@ module.exports = [
 			},
 			{
 				title: '解决 Jenkins 执行找不到 Pytest 命令',
-				path: '/basic-skills/docker/jenkins_notfound_pytest',
+				path: '/basic-skills/docker/jenkins-notfound-pytest',
 				collapsable: true
 			},
 
