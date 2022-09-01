@@ -136,8 +136,8 @@ module.exports = [
 			},
 			{
 				title: '后置处理器之正则提取器',
-				path: '/test/tools/Jmeter/正则提取器',
-				collapsable: false
+				path: '/test/tools/Jmeter/regularity-extractor',
+				collapsable: true
 			},
 			{
 				title: '参数化之用户参数',
