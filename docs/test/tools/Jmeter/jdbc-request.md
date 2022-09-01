@@ -130,3 +130,5 @@ JDBC Request
 
 + Limit ResultSet 是对 SQL 语句返回的结果集限制行数
 + `imit 10` 限制只返回了 10 条数据，然后 `Limit ResultSet = 3` 限制结果集最终只返回 3 条数据
+
+（完）
