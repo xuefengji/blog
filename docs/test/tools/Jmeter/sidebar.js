@@ -141,8 +141,8 @@ module.exports = [
 			},
 			{
 				title: '参数化之用户参数',
-				path: '/test/tools/Jmeter/用户参数',
-				collapsable: false
+				path: '/test/tools/Jmeter/user-preferences',
+				collapsable: true
 			},
 			{
 				title: '参数化之 CSV 数据配置',
