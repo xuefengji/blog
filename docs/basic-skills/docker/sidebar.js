@@ -116,7 +116,7 @@ module.exports = [
 			},
 			{
 				title: 'docker 镜像制作',
-				path: '/basic-skills/docker/docker镜像制作',
+				path: '/basic-skills/docker/docker-mirror-make',
 				collapsable: true
 			},
 
