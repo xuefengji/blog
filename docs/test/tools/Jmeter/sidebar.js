@@ -101,8 +101,8 @@ module.exports = [
 			},
 			{
 				title: '控制器之 ForEach 控制器',
-				path: '/test/tools/Jmeter/ForEach-controller',
-				collapsable: false
+				path: '/test/tools/Jmeter/foreach-controller',
+				collapsable: true
 			},
 			{
 				title: '控制器之 While 控制器',
