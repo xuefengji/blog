@@ -81,7 +81,7 @@ module.exports = [
       },
       {
         title: 'html 报告之 allure 环境准备',
-        path: '/test/frameworks/pytest/allure 环境准备'
+        path: '/test/frameworks/pytest/allure-environment'
       },
       {
         title: 'allure 命令行参数介绍',
