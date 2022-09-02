@@ -5,8 +5,8 @@ module.exports = [
     collapsable: false,
     children: [
     		{
-				title: 'Jenkins安装',
-				path: '/basic-skills/Jenkins/Jenkins安装',
+				title: 'Jenkins 安装',
+				path: '/basic-skills/Jenkins/jenkins-install',
 				collapsable: true
 			},
 			
