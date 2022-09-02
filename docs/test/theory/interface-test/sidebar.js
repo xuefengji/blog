@@ -6,12 +6,12 @@ module.exports = [
     children: [
     	{
 			title: 'Restful 规范',
-			path: '/test/theory/interface-test/Restful规范',
+			path: '/test/theory/interface-test/restful-standard',
 			collapsable: true,
 		},
 		{
 			title: '三种状态机制介绍',
-			path: '/test/theory/interface-test/三种状态机制介绍',
+			path: '/test/theory/interface-test/three-state-mechanism',
 			collapsable: true,
 		},
 			{
@@ -31,7 +31,7 @@ module.exports = [
 			},
 			{
 				title: '跨域介绍',
-				path: '/test/theory/interface-test/跨域',
+				path: '/test/theory/interface-test/cross-domain',
 				collapsable: true,
 			},
     ]
