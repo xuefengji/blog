@@ -1,7 +1,7 @@
 module.exports = [
   {
     title: 'Python 基础',
-    path: '/languages/python/',
+    path: '/languages/python/basics/',
     collapsable: false,
     children: [
         {
@@ -163,15 +163,11 @@ module.exports = [
         },
     ]  
   },
-  {
-	title: 'Python 小技巧',
-	collapsable: false,
-	children:[
-		{
-            title: '字典小妙用',
-            path: '/languages/python/python-lib-xlrd',
-            collapsable: true
-        },
-	]
-  }
+  // {
+	// title: 'Python 小技巧',
+	// collapsable: false,
+	// children:[
+  //
+  // ]
+  // }
 ]
