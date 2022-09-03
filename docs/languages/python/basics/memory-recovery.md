@@ -6,7 +6,7 @@
 
 ### 1. 环状双向链表（refchain）
 
-![refchain](./images/refchain1.png)
+![refchain](../images/refchain1.png)
 
 在运行 Python 文件时，底层会建立一张环状双向链表，所有创建的对象都会被加入这个 refchain 中，如：
 
@@ -23,7 +23,7 @@ c = [1,3,4]
 + 上一个对象地址
 + 下一个对象地址
 
-![refchain](./images/refchain.png)
+![refchain](../images/refchain.png)
 
 由上图可以看出，对于列表这种对象，除了存储以上 4 个基本的数据外，还会存储一些特有的数据，如：元素个数等。
 
@@ -73,7 +73,7 @@ del b
 
 在底层除了建立一张 refchain 表存储所有的对象外，另外在建立一张表存储那些可能存在**循环引用**的对象，也就是说，此时底层会有 2 张表：
 
-![mark](./images/mark.png)
+![mark](../images/mark.png)
 
 可能存在循环引用的类型（元素可以是对象的数据类型）：
 
@@ -94,7 +94,7 @@ del b
 
 会将标记清除的链表，分成 3 代进行回收：
 
-![fendai](./images/fendai.png)
+![fendai](../images/fendai.png)
 
 + 什么时候扫描？
 

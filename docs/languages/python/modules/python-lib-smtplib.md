@@ -9,14 +9,14 @@
 登录 QQ 邮箱，依次点击最上方的**设置** => **账户**
 
 <div style="text-align: center;">
-  <img src="./images/qq-smtp-setting-1.png" alt="QQ 邮箱设置">
+  <img src="../images/qq-smtp-setting-1.png" alt="QQ 邮箱设置">
 </div>
 
 
 往下翻页，找到 **POP3/IMAP/SMTP/Exchange/CardDAV/CalDAV** 这一版块，开启 **POP3/SMTP 服务**。（不同版本的 QQ 可能会不一样，总之就是找到 QQ 邮箱的「POP3/SMTP服务」开启按钮）
 
 <div style="text-align: center;">
-  <img src="./images/qq-smtp-setting-2.png" alt="开启 POP3/SMTP 服务">
+  <img src="../images/qq-smtp-setting-2.png" alt="开启 POP3/SMTP 服务">
 </div>
 
 

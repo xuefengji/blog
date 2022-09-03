@@ -138,7 +138,7 @@ test is running!
 
 **流程**：
 
-![pytest](./images/decorator1.png)
+![pytest](../images/decorator1.png)
 
 至此，上面的需求已经实现了，但用 timer 来装饰函数时，都要写上下面的一行代码
 

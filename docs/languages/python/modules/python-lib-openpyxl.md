@@ -72,7 +72,7 @@ if __name__ == "__main__":
 运行代码，结果会看到生成名为 student.xlsx 的 Excel 文件，打开文件查看如下图所示：
 
 <div style="text-align: center;">
-  <img src="./images/write-xlsx.png" height="200" alt="使用 openpyxl 写入数据到 Excel">
+  <img src="../images/write-xlsx.png" height="200" alt="使用 openpyxl 写入数据到 Excel">
 </div>
 
 
@@ -161,7 +161,7 @@ if __name__ == "__main__":
 输出如下结果：
 
 <div style="text-align: center;">
-  <img src="./images/read-xlsx.png" height="133" alt="使用 openpyxl 从 Excel 读取数据">
+  <img src="../images/read-xlsx.png" height="133" alt="使用 openpyxl 从 Excel 读取数据">
 </div>
 
 ## 常用读取 API

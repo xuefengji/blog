@@ -38,7 +38,7 @@ pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
 
  运行后可以在 C:\Users\电脑用户\AppData\Roaming\pip 文件夹中自动生成 pip.ini 文件
 
-![pip](./images/pip1.png)
+![pip](../images/pip1.png)
 
 ##### 方式二：
 

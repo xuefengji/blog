@@ -77,11 +77,11 @@ if __name__ == "__main__":
 运行代码，结果会看到生成名为 student.xls 的 Excel 文件，打开文件查看如下图所示：
 
 <div style="text-align: center;">
-  <img src="./images/write-xls-1.png" height="200" alt="使用 xlwt 写入数据到 sheet1">
+  <img src="../images/write-xls-1.png" height="200" alt="使用 xlwt 写入数据到 sheet1">
 </div>
 
 <div style="text-align: center;">
-  <img src="./images/write-xls-2.png" height="200" alt="使用 xlwt 写入数据到 sheet2">
+  <img src="../images/write-xls-2.png" height="200" alt="使用 xlwt 写入数据到 sheet2">
 </div>
 
 
@@ -151,7 +151,7 @@ if __name__ == "__main__":
 输出如下结果：
 
 <div style="text-align: center;">
-  <img src="./images/read-xls.png" height="300" alt="使用 xlrd 从 Excel 读取数据">
+  <img src="../images/read-xls.png" height="300" alt="使用 xlrd 从 Excel 读取数据">
 </div>
 
 
@@ -220,14 +220,14 @@ if __name__ == "__main__":
 从上面代码可以看出，这里的修改 Excel 是通过 xlutils 库的 copy 方法将原来的 Excel 整个复制一份，然后再做修改操作，最后再保存。看下修改结果如下：
 
 <div style="text-align: center;">
-  <img src="./images/edit-xls-1.png" height="200" alt="使用 xlutils 修改 sheet1 的数据">
+  <img src="../images/edit-xls-1.png" height="200" alt="使用 xlutils 修改 sheet1 的数据">
 </div>
 
 
 
 
 <div style="text-align: center;">
-  <img src="./images/edit-xls-2.png" height="200" alt="使用 xlutils 修改 sheet2 的数据">
+  <img src="../images/edit-xls-2.png" height="200" alt="使用 xlutils 修改 sheet2 的数据">
 </div>
 
 
@@ -307,7 +307,7 @@ if __name__ == "__main__":
 输出结果：
 
 <div style="text-align: center;">
-  <img src="./images/format-xls.png" height="200" alt="使用 xlwt 格式化 Excel 的数据">
+  <img src="../images/format-xls.png" height="200" alt="使用 xlwt 格式化 Excel 的数据">
  </div>
 
 
