@@ -45,7 +45,7 @@ module.exports = [
         text: '基础知识',
         items: [
           {text: 'Linux', link: '/basic-skills/linux/'},
-          {text: '计算机王网络', link: '/basic-skills/network/'},
+          {text: '计算机网络', link: '/basic-skills/network/'},
           {text: '正则表达式', link: '/basic-skills/regular/'},
         ]
       },
