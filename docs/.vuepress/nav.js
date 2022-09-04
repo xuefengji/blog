@@ -15,7 +15,7 @@ module.exports = [
       {
         text: '测试框架',
         items: [
-          {text: 'Selenium', link: '/test/frameworks/selenium/'},
+          {text: 'Selenium', link: '/test/frameworks/selenium/selenium-theory/'},
           {text: 'Pytest', link: '/test/frameworks/pytest/'},
         ]
       },
