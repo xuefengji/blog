@@ -210,7 +210,7 @@ for value in dic.values():
 
 无序不重复元素的集
 
-**核心：**自动去重
+**核心**：自动去重
 
 ```
 >>> s = set([1,1,2,3,3,4])
@@ -219,10 +219,15 @@ for value in dic.values():
 >>> set("it is a nice day")     # 对于字符串，集合会把它一个一个拆开，然后去重
 {'s', 'e', 'y', 't', 'c', 'n', ' ', 'd', 'i', 'a'}
 ```
+**集合类型**：
++ 可变集合 set
++ 不可变集合 frozenset
 
-**操作：**
+### 集合操作
 
-+  add(key)方法可以添加元素到set中 
+#### 增加元素
+
+add(key) 方法可以添加元素到set中 
 
 ```
 >>> s = {1, 2, 3, 4}
@@ -231,7 +236,9 @@ for value in dic.values():
 >>> s.add(5)
 ```
 
-+  update()方法，将另一个对象更新到已有的集合中，会进行去重 
+#### 更新集合
+
+update() 方法，将另一个对象更新到已有的集合中，会进行去重 
 
 ```
 >>> s
@@ -241,7 +248,9 @@ for value in dic.values():
 {1, 2, 3, 4, 5, 'e', 'o', 'l', 'h'}
 ```
 
-+  remove(key) 或 pop() 方法删除指定元素， pop方法无法设置参数，删除指定的元素
+#### 删除集合中的元素
+
++ remove(key) 方法删除指定元素， 
 
 ```
 >>> s
@@ -249,6 +258,11 @@ for value in dic.values():
 >>> s.remove("l")
 >>> s
 {1, 2, 3, 4, 5, 'e', 'o', 'h'}
+```
+
++ pop() 随机删除
+
+```python
 >>> s.pop()
 1
 >>> s
@@ -260,7 +274,23 @@ Traceback (most recent call last):
 TypeError: pop() takes no arguments (1 given)
 ```
 
-+  数学意义上的集合操作 
++ discard() 
+
+```python
+>>> s
+{1, 2, 3, 4, 5, 'e', 'o', 'l', 'h'}
+>>> s.remove("l")
+>>> s
+{1, 2, 3, 4, 5, 'e', 'o', 'h'}
+```
+
++ clear() 清空集合
+
+```python
+
+```
+
+### 数学意义上的集合操作 
 
 ```
 >>> s
