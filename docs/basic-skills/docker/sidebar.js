@@ -157,12 +157,7 @@ module.exports = [
 				title: 'Jenkins+Python+Pytest+Allure 构建项目实战',
 				path: '/basic-skills/docker/jenkins-allure-actual-combat1',
 				collapsable: true
-			},
-			{
-				title: '解决 Jenkins 执行找不到 Pytest 命令',
-				path: '/basic-skills/docker/jenkins-notfound-pytest',
-				collapsable: true
-			},
+			}
 
 			
 			

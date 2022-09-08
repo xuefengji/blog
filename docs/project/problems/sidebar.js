@@ -24,6 +24,17 @@ module.exports = [
             path: '/project/problems/Jmeter/jmeter-messy-code',
           }
         ]
+      },
+      {
+        title: 'Docker 相关',
+        // path: '/project/problems/python',
+        collapsable: false,
+        children: [
+          {
+            title: '解决 Jenkins 执行找不到 Pytest 命令',
+            path: '/project/problems/docker/jenkins-notfound-pytest',
+          }
+        ]
       }
     ]
   }

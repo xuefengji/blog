@@ -4,7 +4,7 @@
 
 + 在 Jenkins 容器中执行 pytest 测试时，可以执行成功
 + 在 Jenkins 中创建实例时，执行同样的命令时，却无法找到 pytest 命令
-![jenkins](./images/jenkins5.png)
+![jenkins](images/jenkins5.png)
 
 ## 问题分析
 
@@ -36,10 +36,10 @@ echo $PATH
 #### 将环境变量添加到 Jenkins 中
 
 + 找到系统设置
-![jenkins](./images/jenkins6.png)
+![jenkins](images/jenkins6.png)
 
 + 进入系统设置中，找到全局属性，并添加
-![jenkins](./images/jenkins7.png)
+![jenkins](images/jenkins7.png)
 
 + 保存之后，重新构建，构建成功
 
