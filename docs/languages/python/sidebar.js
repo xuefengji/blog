@@ -104,16 +104,7 @@ module.exports = [
             path: '/languages/python/basics/memory-recovery.md',
             collapsable: true
       	},
-      	{
-            title: 'Python 多进程',
-            path: '/languages/python/basics/multi-progress.md',
-            collapsable: true
-      	},
-        {
-            title: 'Python 多线程',
-            path: '/languages/python/basics/multi-threading.md',
-            collapsable: true
-        },
+
       	{
             title: 'PEP8',
             path: '/languages/python/basics/PEP8.md',
@@ -128,6 +119,21 @@ module.exports = [
             title: 'copy 与 deepcopy 详解',
             path: '/languages/python/basics/copy-deepcopy',
             collapsable: true
+        },
+        {
+          title: 'Python 多进程',
+          path: '/languages/python/basics/multi-progress.md',
+          collapsable: true
+        },
+        {
+          title: 'Python 多线程',
+          path: '/languages/python/basics/multi-threading.md',
+          collapsable: true
+        },
+        {
+          title: '枚举',
+          path: '/languages/python/basics/enumeration',
+          collapsable: true
         },
     ]
   },
