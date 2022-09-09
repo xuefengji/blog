@@ -5,51 +5,51 @@ module.exports = [
     children: [
       {
         title: 'MySQL 数据类型',
-        path: '/basic-skills/mysql/data-types'
+        path: '/databases/mysql/data-types'
       },
       {
         title: 'MySQL 常用命令',
-        path: '/basic-skills/mysql/common-commands'
+        path: '/databases/mysql/common-commands'
       },
       {
         title: '库和表的基本操作',
-        path: '/basic-skills/mysql/database-and-table-operations'
+        path: '/databases/mysql/database-and-table-operations'
       },
       {
         title: '表中列的基本属性',
-        path: '/basic-skills/mysql/column-properties'
+        path: '/databases/mysql/column-properties'
       },
       {
         title: '数据的增删改',
-        path: '/basic-skills/mysql/data-insert-delete-update'
+        path: '/databases/mysql/data-insert-delete-update'
       },
       {
         title: '简单查询语法',
-        path: '/basic-skills/mysql/simple-query'
+        path: '/databases/mysql/simple-query'
       },
       {
         title: '条件查询语法',
-        path: '/basic-skills/mysql/query-by-search-conditions'
+        path: '/databases/mysql/query-by-search-conditions'
       },
       {
         title: '表达式和函数',
-        path: '/basic-skills/mysql/expressions-and-functions'
+        path: '/databases/mysql/expressions-and-functions'
       },
       {
         title: '分组查询语法',
-        path: '/basic-skills/mysql/group-query'
+        path: '/databases/mysql/group-query'
       },
       {
         title: '子查询语法',
-        path: '/basic-skills/mysql/sub-query'
+        path: '/databases/mysql/sub-query'
       },
       {
         title: '连接查询语法',
-        path: '/basic-skills/mysql/join-query'
+        path: '/databases/mysql/join-query'
       },
       {
         title: '组合查询语法',
-        path: '/basic-skills/mysql/union-query'
+        path: '/databases/mysql/union-query'
       },
       {
         title: 'MySql 索引初识',
@@ -84,15 +84,15 @@ module.exports = [
     children: [
       {
         title: 'MySQL 的安装与卸载',
-        path: '/basic-skills/mysql/installation-of-mysql'
+        path: '/databases/mysql/installation-of-mysql'
       },
       {
         title: 'MySQL 主键和自增 ID',
-        path: '/basic-skills/mysql/primary-key-and-increment-id'
+        path: '/databases/mysql/primary-key-and-increment-id'
       },
       {
         title: 'MySQL 数据库设计规范',
-        path: '/basic-skills/mysql/db-design-spec'
+        path: '/databases/mysql/db-design-spec'
       }
     ]
   }
