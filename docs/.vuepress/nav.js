@@ -69,7 +69,7 @@ module.exports = [
   {
     text: '数据存储',
     items: [
-      {text: 'MySQL', link: '/databases/mysql/mysql-windows'},
+      {text: 'MySQL', link: '/databases/mysql/installation-of-mysql'},
       {text: 'Redis', link: '/databases/redis/nosql'},
       {text: 'Elasticsearch', link: '/databases/es/windows'},
     ]
