@@ -55,3 +55,5 @@ self.logger = logging.getLogger(__name__)
 ```python
 self.logger.removeHandler(console)
 ```
+
+（完）

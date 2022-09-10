@@ -23,3 +23,4 @@
 
 在请求节点下，添加 BeanShell PostProcessor，在其脚本框中输入：prev.setDataEncoding("UTF-8")
 
+（完）
