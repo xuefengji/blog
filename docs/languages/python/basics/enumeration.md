@@ -43,8 +43,9 @@ class Color(Enum):
 
 ### 枚举类型、名称、值获取
 
-> 获取枚举类型中的数值：`.value`
-> 获取枚举类型中的标签：`.name`
+> 获取枚举类型中的数值：`class.value`
+> 获取枚举类型中的标签：`class.name`
+> 获取数值的标签：`class(value).name`
 
 ```python
 from enum import Enum, unique
@@ -59,6 +60,7 @@ print(Color.YELLOW.value)
 print(Color.YELLOW.name)
 print(Color.YELLOW)
 print(Color['YELLOW'])
+print(Color(1).name)
 print(type(Color.YELLOW.value))
 print(type(Color.YELLOW.name))
 print(type(Color.YELLOW))
@@ -70,6 +72,7 @@ print(type(Color['YELLOW']))
 YELLOW           # 枚举的标签
 Color.YELLOW     # 通过枚举标签获取枚举类型
 Color.YELLOW     # 通过枚举标签获取枚举类型
+YELLOW           # 通过值获取标签名
 <class 'int'>    # 枚举值的值类型
 <class 'str'>    # 枚举标签的类型
 <enum 'Color'>   # 通过枚举标签获取枚举类型
