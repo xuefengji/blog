@@ -7,8 +7,8 @@
 + 有以下可选值：
     + function：默认，每个函数或方法都会调用
     + class：每个类会调用，一个类可以有多个方法
-    + module：每一个 .py 文件调用一次，该文件内又有多个 function 和 class
-    + package/session：多个文件调用一次，可以跨 .py 文件
+    + module：每一个 `.py` 文件调用一次，该文件内又有多个 function 和 class
+    + package/session：多个文件调用一次，可以跨 `.py` 文件
 
 ## scope 作用范围顺序
 
