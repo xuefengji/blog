@@ -135,6 +135,11 @@ module.exports = [
           path: '/languages/python/basics/enumeration',
           collapsable: true
         },
+        {
+          title: 'sort 与 sorted 区别',
+          path: '/languages/python/basics/sort-sorted',
+          collapsable: true
+        },
     ]
   },
   {
