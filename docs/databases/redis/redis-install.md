@@ -22,7 +22,7 @@ Windows 版本的 Redis 已经停更很久了…
 
 ## Linux 安装
 
-/opt 目录下下载包
+在`/opt` 目录下下载包
 
 ```shell
 wget https://download.redis.io/releases/redis-7.0.0.tar.gz
@@ -46,7 +46,7 @@ make
 make install
 ```
 
-将 Redis 的配置文件复制到 程序安装目录 /usr/local/bin/config下
+将 Redis 的配置文件复制到 程序安装目录 `/usr/local/bin/config`下
 
 ```shell
 # 进入默认安装路径
@@ -70,7 +70,7 @@ daemonize yes
 redis-server config/redis.conf
 ```
 
-使用 redis-cli 连接指定端口号测试
+使用 `redis-cli` 连接指定端口号测试
 
 ```shell
 redis-cli -p 6379
