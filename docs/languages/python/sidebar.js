@@ -5,7 +5,7 @@ module.exports = [
     collapsable: false,
     children: [
         {
-            title: 'venv 环境',
+            title: 'Python 虚拟环境之 venv',
             path: '/languages/python/basics/venv.md',
             collapsable: true
         },
@@ -138,6 +138,11 @@ module.exports = [
         {
           title: 'sort 与 sorted 区别',
           path: '/languages/python/basics/sort-sorted',
+          collapsable: true
+        },
+        {
+          title: "if __name__=='__main__'的作用",
+          path: '/languages/python/basics/__name__',
           collapsable: true
         },
     ]
