@@ -145,6 +145,11 @@ module.exports = [
           path: '/languages/python/basics/__name__',
           collapsable: true
         },
+        {
+          title: "Context Manager 上下文管理器",
+          path: '/languages/python/basics/context-manager',
+          collapsable: true
+        },
     ]
   },
   {
