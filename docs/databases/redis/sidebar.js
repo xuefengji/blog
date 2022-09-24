@@ -19,33 +19,38 @@ module.exports = [
                 path: '/databases/redis/redis-install',
                 collapsable: true
             },
+          {
+            title: 'redis.conf 配置文件详解',
+            path: '/databases/redis/config',
+            collapsable: true
+          },
              {
                 title: 'Redis 基本命令',
                 path: '/databases/redis/basic-commands',
                 collapsable: true
             },
             {
-                title: 'Redis String 类型',
+                title: 'Redis 类型之 String',
                 path: '/databases/redis/string',
                 collapsable: true
             },
             {
-                title: 'Redis List 类型',
+                title: 'Redis 类型之 List',
                 path: '/databases/redis/list',
                 collapsable: true
             },
             {
-                title: 'Redis Set 类型',
+                title: 'Redis 类型之 Set',
                 path: '/databases/redis/set',
                 collapsable: true
             },
              {
-                title: 'Redis Hash 类型',
+                title: 'Redis 类型之 Hash',
                 path: '/databases/redis/Hash',
                 collapsable: true
             },
             {
-                title: 'Redis Zset 类型',
+                title: 'Redis 类型之 Zset',
                 path: '/databases/redis/zset',
                 collapsable: true
             },
@@ -74,11 +79,7 @@ module.exports = [
                 path: '/databases/redis/watch',
                 collapsable: true
             },
-            {
-                title: 'redis.conf 配置文件详解',
-                path: '/databases/redis/config',
-                collapsable: true
-            },
+
             {
                 title: 'Redis 持久化之 RDB',
                 path: '/databases/redis/rdb',
@@ -105,7 +106,7 @@ module.exports = [
                 collapsable: true
             },
              {
-                title: 'Redis 缓存击穿与雪崩',
+                title: 'Redis 缓存三大问题',
                 path: '/databases/redis/cache',
                 collapsable: true
             },
