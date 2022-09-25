@@ -137,7 +137,7 @@ redis-cli shutdown
 cp /opt/redis-7.0.0/utils/redis_init_script /etc/init.d/redis
 ```
 
-修改 Redis 启动脚本，主要修改 EXEC 和 CLIEXEC 执行启动命令的脚本目录和 CONF 配置文件目录：
+修改 Redis 启动脚本，主要修改 `EXEC` 和 `CLIEXEC` 执行启动命令的脚本目录和 `CONF` 配置文件目录。截取脚本中部分相关的内容，如下：
 
 ```bash
 # 指定运行的客户端
@@ -260,6 +260,5 @@ firewall-cmd --reload
 * 关闭 Redis 开机启动，并将其从 chkconfig 托管中删除
 * 删除 Redis 安装目录
 * 如果还想更干净可以通过 `find / -name redis` 命令，将查到的文件夹及目录都删除即可
-
 
 （完）
