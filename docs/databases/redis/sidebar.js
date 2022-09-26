@@ -110,6 +110,10 @@ module.exports = [
                 path: '/databases/redis/cache',
                 collapsable: true
             },
+          {
+            title: 'Redis 的 ACL 安全策略',
+            path: '/databases/redis/access-control-list'
+          },
         ]
     },
 ]
