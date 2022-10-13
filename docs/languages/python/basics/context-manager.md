@@ -95,7 +95,7 @@ class Resource:
             print("遇到异常时关闭资源")
 ```
 
-通过 with...as 调用上下文管理器（也称为：使用 with ... as ... 管理资源）
+通过 `with...as` 调用上下文管理器（也称为：使用 `with ... as ...` 管理资源）
 
 ```python
 with Resource("TEST") as f:
@@ -117,7 +117,7 @@ with Resource("TEST") as f:
 with 有异常时：
 
 ```python
-with Resource("异常小菠萝") as r:
+with Resource("异常TEST") as r:
     print('[with代码块] 异常之前的代码')
     raise Exception("抛出了 Exception")
     print('[with代码块] ~~~~~~~~异常之后的代码')
@@ -219,7 +219,7 @@ with open_file('file.txt', 'w') as f:
 ::: tip 小结
 
 - 基于生成器的上下文管理器时，不再用定义 `__enter__()` 和 `__exit__()` 方法
-- 但需要加上装饰器 @contextmanager
+- 但需要加上装饰器 `@contextmanager`
 
 :::
 
