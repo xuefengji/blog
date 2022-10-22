@@ -1,6 +1,6 @@
 module.exports = [
   {
-    title: 'JMeter 基础介绍',
+    title: 'JMeter 基础',
 	path: '/test/tools/Jmeter/',
     collapsable: false,
     children: [
@@ -163,5 +163,10 @@ module.exports = [
 			},
 
     ]
+  },
+  {
+	title: 'JMeter 应用',
+	path: '/test/tools/Jmeter/',
+    collapsable: false,  
   }
  ]
