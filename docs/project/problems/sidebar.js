@@ -1,9 +1,5 @@
 module.exports = [
-  {
-    title: '问题记录',
-    collapsable: false,
-    children: [
-      {
+	{
         title: 'Python 相关',
         // path: '/project/problems/python',
         collapsable: false,
@@ -13,8 +9,8 @@ module.exports = [
             path: '/project/problems/python/logging-repeat-output',
           }
         ]
-      },
-      {
+     },
+    {
         title: 'Jmeter 相关',
         // path: '/project/problems/python',
         collapsable: false,
@@ -24,8 +20,8 @@ module.exports = [
             path: '/project/problems/Jmeter/jmeter-messy-code',
           }
         ]
-      },
-      {
+     },
+    {
         title: 'Docker 相关',
         // path: '/project/problems/python',
         collapsable: false,
@@ -35,7 +31,5 @@ module.exports = [
             path: '/project/problems/docker/jenkins-notfound-pytest',
           }
         ]
-      }
-    ]
-  }
+    }
 ]
