@@ -1,6 +1,6 @@
 module.exports = [
   {
-    title: 'selenium 框架',
+    title: 'Selenium 框架',
     collapsable: false,
     children: [
       {
