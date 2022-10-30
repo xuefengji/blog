@@ -12,7 +12,7 @@
 
 **分析**：
 
-+ 在执行 `logger = logging.getLogger*(__name__)` 时，会先检查内存中是否存在 `logger.log` 的 logger 对象， 存在则取出，不存在则新建
++ 在执行 `logger = logging.getLogger*(__name__)` 时，会先检查内存中是否存在 `logger.log` 的 logger 对象，存在则取出，不存在则新建
 + 实例化的 logger 对象中有个 handlers 属性来存储 handler
   + `logger.handlers` 起初是个空列表，执行 `logger.addHandler(console)` 时，会在 handlers 列表中添加一个 StreamHandler，用于输出一条日志
   + 在第二次被调用时，`logger.handlers` 中已经存在一个 StreamHandler 了，再次执行 `logger.addHandler(console)` 时，就会在 handlers 中再次添加一个新的 StreamHandler，就会输出两条日志

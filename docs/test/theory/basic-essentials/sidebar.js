@@ -5,7 +5,7 @@ module.exports = [
     collapsable: false,
     children: [
 			{
-				title: '典型登录栗子讲解',
+				title: '典型用户登录用例',
 				path: '/test/theory/basic-essentials/开篇之典型用户登录.md',
 				collapsable: true
 			},

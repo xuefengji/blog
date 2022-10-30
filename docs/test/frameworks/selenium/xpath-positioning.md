@@ -8,7 +8,7 @@
 
 **语法**：//tag[@attr=attr]
 
-栗子：以定位百度输入框为例：
+例子：以定位百度输入框为例：
 
 ![baidu](./images/baidu.jpg)
 

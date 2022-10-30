@@ -220,7 +220,7 @@ echo -e '\nhosts = [
 配置完成后，运行以下指令启动 Cerebro：
 
 ```bash
-# 启动， 在 run.log 中查看日志
+# 启动，在 run.log 中查看日志
 .bin/cerebro >> run.log 2>&1 &
 ```
 

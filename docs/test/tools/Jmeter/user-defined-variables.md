@@ -38,7 +38,7 @@
 
 ![user](./images/userdefault7.png)
 
- 运行结果如下： 
+ 运行结果如下：
 
 ![user](./images/userdefault8.png)
 

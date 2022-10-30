@@ -1,6 +1,6 @@
 # ARP 协议
 
-简介： ARP 全称 Address Resolution Protocol，地址解析协议
+简介：ARP 全称 Address Resolution Protocol，地址解析协议
 
 目的：实现 IP 地址到 MAC 地址的转换
 
@@ -30,7 +30,7 @@ ipconfig /all
 
 ## ARP 原理之请求应答
 
-**ping 命令之 ARP 请求应答栗子**：
+**ping 命令之 ARP 请求应答例子**：
 
 发送方：PC1，IP 地址为 IP1，MAC 地址为 MAC1
 

@@ -26,7 +26,7 @@ document.cookie = "firstName=dongyuanxin; path=/"
 
 ![cookie1](images/cookie1.png)
 
-**使用 Cookie 栗子**：
+**使用 Cookie 例子**：
 
 以用户购买商品为例：
 + 监测到浏览器客户端没有标识用户的 Cookie，跳转到登陆界面

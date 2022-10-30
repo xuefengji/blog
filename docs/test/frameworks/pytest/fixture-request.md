@@ -100,7 +100,7 @@ def test_login(input_user, input_psw):
     '''登录用例'''
     a = input_user
     b = input_psw
-    print("测试数据a-> %s， b-> %s" % (a,b))
+    print("测试数据a-> %s，b-> %s" % (a,b))
     assert b
 ```
 
@@ -134,7 +134,7 @@ def test_login(input_user, input_psw):
     '''登录用例'''
     a = input_user
     b = input_psw
-    print("测试数据a-> %s， b-> %s" % (a,b))
+    print("测试数据a-> %s，b-> %s" % (a,b))
     assert b
 ```
 

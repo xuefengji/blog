@@ -101,7 +101,7 @@ sentinel parallel-syncs mymaster 1
  
  
  
-# 故障转移的超时时间 failover-timeout 可以用在以下这些方面： 
+# 故障转移的超时时间 failover-timeout 可以用在以下这些方面：
 #1. 同一个sentinel对同一个master两次failover之间的间隔时间
 #2. 当一个slave从一个错误的master那里同步数据开始计算时间直到slave被纠正为向正确的master那里同步数据时
 #3.当想要取消一个正在进行的failover所需要的时间  

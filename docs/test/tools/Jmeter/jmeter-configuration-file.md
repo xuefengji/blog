@@ -3,7 +3,7 @@
 ## jmeter.properties
 官方配置文档：https://jmeter.apache.org/usermanual/properties_reference.html
 
-所在目录： JMeter 安装目录下的bin目录
+所在目录：JMeter 安装目录下的bin目录
 
 **是 JMeter 核心配置项文件**
 

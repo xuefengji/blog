@@ -38,7 +38,7 @@ def outer():
         inner_var = 2  # 局部作用域
 ```
 
-查找变量的顺序： **`L –> E –> G –>B`** 
+查找变量的顺序：**`L –> E –> G –>B`** 
 
 ```python
 a = 1
@@ -77,7 +77,7 @@ def func():
 
 + global
 
-  看个栗子：
+  看个例子：
 
   ```python
   total = 0                        # total是一个全局变量
@@ -93,7 +93,7 @@ def func():
   print("函数外的total的内存地址是: ", id(total))
   ```
 
-  上面栗子中两个 total 是不一样的，但想在函数内部访问全局变量中的 total ，使用关键字：global
+  上面例子中两个 total 是不一样的，但想在函数内部访问全局变量中的 total ，使用关键字：global
 
   ```python
   total = 0                        # total是一个全局变量
@@ -118,22 +118,22 @@ def func():
 
 + nonlocal 
 
-  还是先看个栗子：
+  还是先看个例子：
 
   ```python
   a = 1
-  print("函数outer调用之前全局变量a的内存地址： ", id(a))
+  print("函数outer调用之前全局变量a的内存地址：", id(a))
   
   def outer():
       a = 2
-      print("函数outer调用之时闭包外部的变量a的内存地址： ", id(a))
+      print("函数outer调用之时闭包外部的变量a的内存地址：", id(a))
       def inner():
           a = 3
-          print("函数inner调用之后闭包内部变量a的内存地址： ", id(a))
+          print("函数inner调用之后闭包内部变量a的内存地址：", id(a))
       inner()
-      print("函数inner调用之后，闭包外部的变量a的内存地址： ", id(a))
+      print("函数inner调用之后，闭包外部的变量a的内存地址：", id(a))
   outer()
-  print("函数outer执行完毕，全局变量a的内存地址： ", id(a))
+  print("函数outer执行完毕，全局变量a的内存地址：", id(a))
   ```
 
   理解了之前的知识，知道这 3 个 a 都是各自的，但想 inner 内想访问 outer 中的 a 咋办？
@@ -142,22 +142,22 @@ def func():
 
   ```python
   a = 1
-  print("函数outer调用之前全局变量a的内存地址： ", id(a))
+  print("函数outer调用之前全局变量a的内存地址：", id(a))
   def outer():
       a = 2
-      print("函数outer调用之时闭包外部的变量a的内存地址： ", id(a))
+      print("函数outer调用之时闭包外部的变量a的内存地址：", id(a))
       def inner():
           global a   # 注意这行
           a = 3
-          print("函数inner调用之后闭包内部变量a的内存地址： ", id(a))
+          print("函数inner调用之后闭包内部变量a的内存地址：", id(a))
       inner()
-      print("函数inner调用之后，闭包外部的变量a的内存地址： ", id(a))
+      print("函数inner调用之后，闭包外部的变量a的内存地址：", id(a))
   outer()
-  print("函数outer执行完毕，全局变量a的内存地址： ", id(a))
+  print("函数outer执行完毕，全局变量a的内存地址：", id(a))
   
   --------------------------
-  函数outer调用之前全局变量a的内存地址：  494384192
-  函数outer调用之时闭包外部的变量a的内存地址：  494384224
+  函数outer调用之前全局变量a的内存地址： 494384192
+  函数outer调用之时闭包外部的变量a的内存地址： 494384224
   函数inner调用之后闭包内部变量a的内存地址：  494384256
   函数inner调用之后，闭包外部的变量a的内存地址：  494384224
   函数outer执行完毕，全局变量a的内存地址：  494384256
@@ -208,7 +208,7 @@ def func():
 
   纳尼？简直不敢相信
 
-  **原因**：a +=1 实际上是 a=a+1，python 中规定，修改一个变量之前这个变量必须被声明，栗子中没有声明变量就修改，与语法不符，所以报错
+  **原因**：a +=1 实际上是 a=a+1，python 中规定，修改一个变量之前这个变量必须被声明，例子中没有声明变量就修改，与语法不符，所以报错
 
 +  **Python 函数的作用域取决于其函数代码块在整体代码中的位置，而不是调用时机的位置** 
 

@@ -186,7 +186,7 @@ POST /_cluster/reroute
 
 如上示例，使用 `"move"` 指令，将索引 `"test"` 的分片 0 从节点 `"node1"` 移动到了 `"node2"`使用 `"allocate_replica"` 指令将 `"test"` 索引未分配的分片 1 的副本分配到节点 `"node3"`
 
-需要注意的是，在执行了任何路由重置指令后， ES 将会执行重新平衡数据的操作来保持平衡状态，但是这个操作受 [cluster.routing.rebalance.enable](https://www.elastic.co/guide/en/elasticsearch/reference/7.13/modules-cluster.html#cluster-shard-allocation-settings)（是否允许重新平衡）设置值的影响
+需要注意的是，在执行了任何路由重置指令后，ES 将会执行重新平衡数据的操作来保持平衡状态，但是这个操作受 [cluster.routing.rebalance.enable](https://www.elastic.co/guide/en/elasticsearch/reference/7.13/modules-cluster.html#cluster-shard-allocation-settings)（是否允许重新平衡）设置值的影响
 
 reroute API 在 ES 集群运维的时候经常用到，更详细的使用示例可以参考[官方文档](https://www.elastic.co/guide/en/elasticsearch/reference/7.13/cluster-reroute.html)
 

@@ -15,7 +15,7 @@
 
 **Variable Name Bound to Pool 部分**：
 
-Variable Name of Pool declared in JDBC Connection Configuration： 数据库连接池配置的名称，与 JDBC Connection Configuration 中一致
+Variable Name of Pool declared in JDBC Connection Configuration：数据库连接池配置的名称，与 JDBC Connection Configuration 中一致
 
 **SQL Query 部分**：
 
@@ -116,7 +116,7 @@ JDBC Request
 
 **注意**：Result variable name 的结果是一个数组，每个元素代表一个记录
 
-## 使用 Limit ResultSet 的栗子
+## 使用 Limit ResultSet 的例子
 
 JDBC Request
 

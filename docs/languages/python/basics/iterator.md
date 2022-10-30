@@ -43,7 +43,7 @@ Traceback (most recent call last):
 StopIteration
 ```
 
-类实现成为迭代器： 实现 `__iter__()` 和 `__next__()` 方法 
+类实现成为迭代器：实现 `__iter__()` 和 `__next__()` 方法 
 
 **迭代器(Iterator)和可迭代(Iterable)的区别**：
 

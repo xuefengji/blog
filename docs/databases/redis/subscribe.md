@@ -10,11 +10,11 @@
 
 ![pub/sub](./images/xx1.png)
 
-下图展示了频道 channel1 ， 以及订阅这个频道的三个客户端 —— client2 、 client5 和 client1 之间的关系：
+下图展示了频道 channel1，以及订阅这个频道的三个客户端 —— client2 、 client5 和 client1 之间的关系：
 
 ![pub/sub](./images/xx2.png)
 
-当有新消息通过 PUBLISH 命令发送给频道 channel1 时， 这个消息就会被发送给订阅它的三个客户端：
+当有新消息通过 PUBLISH 命令发送给频道 channel1 时，这个消息就会被发送给订阅它的三个客户端：
 
 ![pub/sub](./images/xx3.png)
 
@@ -60,7 +60,7 @@ Reading messages... (press Ctrl-C to quit)
 ## 原理
 
 + 通过 SUBSCRIBE 命令订阅频道后，redis-server 服务器进程都维护着一个字典
-+ 字典的键为正在被订阅的频道， 而字典的值则是一个链表
++ 字典的键为正在被订阅的频道，而字典的值则是一个链表
 + 链表中保存了所有订阅这个频道的客户端
 + SUBSCRIBE 命令的关键就是将客户端添加到指定 channel 的订阅链表中
 

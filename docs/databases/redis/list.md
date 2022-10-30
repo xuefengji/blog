@@ -261,7 +261,7 @@ LINSERT key BEFORE|AFTER pivot value
 
 ::: tip 总结
 
-- list实际上是一个链表，before Node after ， left，right 都可以插入值
+- list实际上是一个链表，before Node after，left，right 都可以插入值
 - **如果 key 不存在，则创建新的链表**
 - 如果 key 存在，新增内容
 - 如果移除了所有值，空链表，也代表不存在

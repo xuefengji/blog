@@ -485,7 +485,7 @@ chkconfig --del /etc/init.d/mysqld
 rm -rf /etc/init.d/mysqld
 ```
 
-删除 MySQL 安装目录（如果是按照我上文的步骤安装， 删除安装目录的命令如下）：
+删除 MySQL 安装目录（如果是按照我上文的步骤安装，删除安装目录的命令如下）：
 
 ```bash
 rm -rf /opt/mysql/

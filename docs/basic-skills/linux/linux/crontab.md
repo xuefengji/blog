@@ -176,7 +176,7 @@ minute   hour   day   month   week   command
   /usr/local/jboss-4.0.5/bin/run.sh -c mev &
   ```
 
-+ 手动执行脚本 OK 时，但是 crontab 不执行， 可以尝试在 crontab 中直接引入环境变量解决问题，如：
++ 手动执行脚本 OK 时，但是 crontab 不执行，可以尝试在 crontab 中直接引入环境变量解决问题，如：
 
   ```
   0 * * * * . /etc/profile;/bin/sh /var/www/java/audit_no_count/bin/restart_audit.sh
@@ -192,7 +192,7 @@ minute   hour   day   month   week   command
 0 */3 * * * /usr/local/apache2/apachectl restart >/dev/null 2>&1
 ```
 
- `/dev/null 2>&1` ： 先将标准输出重定向到 `/dev/null` ， 然后将标准错误重定向到标准输出 
+ `/dev/null 2>&1` ： 先将标准输出重定向到 `/dev/null`，然后将标准错误重定向到标准输出 
 
 ### 系统级与用户级任务调度
 
@@ -204,6 +204,6 @@ minute   hour   day   month   week   command
 
 + 新创建的 job 在不重启 cron 时，不会马上执行，至少要过 2 分钟才执行
 +  当 crontab 突然失效时，可以尝试 `/etc/init.d/crond restart` 或者查看日志看某个 job 有没有执行报错 `tail -f /var/log/cron` 
-+ 谨慎使用  `crontab -r` ， 会删除用户的 Crontab 文件 
++ 谨慎使用  `crontab -r`，会删除用户的 Crontab 文件 
 +  在 crontab 中 % 是有特殊含义的，需要使用 `\%` 转义
 

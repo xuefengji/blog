@@ -66,7 +66,7 @@ POST books/_search
 }
 ```
 
-在进行全文本字段检索的时候， match 这个 API 提供了 `operator` 和 `minimum_should_match` 参数：
+在进行全文本字段检索的时候，match 这个 API 提供了 `operator` 和 `minimum_should_match` 参数：
 
 * **`operator`**：参数值可以为 `or` 或者 `and` 来控制检索词项间的关系默认值为 `or`，表示被分词后，只要含有部分词项的文档都可以匹配上
 * **`minimum_should_match`**：可以指定词项的最少匹配个数，其值可以指定为某个具体的数字，但因为我们无法预估检索内容的词项数量，一般将其设置为一个百分比

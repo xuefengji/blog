@@ -215,7 +215,7 @@ python_functions = test_*  test*
 
 Pytest 收集测试用例时，会递归遍历所有子目录，包括某些你明知道没必要遍历的目录，遇到这种情况，可以使用 norecursedirs 参数简化 Pytest 的搜索工作
 
-**默认设置**： `norecursedirs = .* build dist CVS _darcs {arch} *.egg`
+**默认设置**：`norecursedirs = .* build dist CVS _darcs {arch} *.egg`
 
 **正确写法**：多个路径用空格隔开
 

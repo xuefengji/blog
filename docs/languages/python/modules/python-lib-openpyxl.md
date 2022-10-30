@@ -66,7 +66,7 @@ if __name__ == "__main__":
     path = 'student.xlsx'
 
     # 执行方法
-    write_excel(sheet_name， head, data, path)
+    write_excel(sheet_name，head, data, path)
 ```
 
 运行代码，结果会看到生成名为 student.xlsx 的 Excel 文件，打开文件查看如下图所示：
@@ -542,7 +542,7 @@ print(font.name, font.size, font.bold, font.italic, font.color)
 ### 设置对齐样式
 
 * `Alignment(horizontal=水平对齐模式, vertical=垂直对齐模式, text_rotation=旋转角度, wrap_text=是否自动换行)`
-  * 水平对齐模式：'distributed'，'justify'，'center'，'leftfill'， 'centerContinuous'，'right'，'general'
+  * 水平对齐模式：'distributed'，'justify'，'center'，'leftfill'，'centerContinuous'，'right'，'general'
   * 垂直对齐模式：'bottom'，'distributed'，'justify'，'center'，'top'
 
 ```python

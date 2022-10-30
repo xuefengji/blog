@@ -67,7 +67,7 @@ Copyright (c) 1999-2020 The Apache Software Foundation
   
   + 运行完成后，会在当前目录生成一个 test.jtl 的文件，可以将文件下载到 windows 上的 jmeter 中查看，也可生成 html 文件下载后查看
   
-    注意： 拷到windows机器，打开windows 上的 jmeter（注意：Linux上的 jdk 和 jmeter 版本必须和windows 上的保持一致，包括插件也要一致 
+    注意：拷到windows机器，打开windows 上的 jmeter（注意：Linux上的 jdk 和 jmeter 版本必须和windows 上的保持一致，包括插件也要一致 
   
     生成 html 文件需执行命令：`jmeter -g -test.jtl -o report`，在 report 文件夹中含有 index.html 文件，直接打开即可查看
   
