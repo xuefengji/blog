@@ -1,6 +1,10 @@
 # 测试开发小册
 
 <p align="center">
+  <img src="/docs/.vuepress/public/img/snow.png" alt="snowji.cn" width="160" height="160">
+</p>
+
+<p align="center">
   <img alt="author" src="https://img.shields.io/badge/author-snowji-blue.svg?style=flat-square">
   <img alt="updated" src="https://img.shields.io/badge/update-2022.10-blue.svg?style=flat-square">
   <img alt="license" src="https://img.shields.io/badge/license-CC BY NC 4.0-blue.svg?style=flat-square">
