@@ -13,7 +13,7 @@ features:
   details: 告别碎片化学习方式，构建出自己的知识体系。
 - title: 持续学习
   details: 以测试开发的视角展开，兼顾后端等领域知识。
-footer: MIT Licensed | Copyright © 2019-present SnowJi
+footer: MIT Licensed | Copyright © 2020-present SnowJi
 copyrightText: false
 ---
 

@@ -8,7 +8,7 @@
 
 ## 简介
 
-[在线预览](https://www.snowji.cn/)
+[在线预览](https://www.snowji.cn/) | [国外镜像](https://xuefengji.github.io/)
 
 建立小册的目的：
 
