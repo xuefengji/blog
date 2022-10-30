@@ -52,27 +52,27 @@ module.exports = [
         path: '/databases/mysql/union-query'
       },
       {
-        title: 'MySql 索引初识',
+        title: 'MySQL 索引初识',
         path: '/databases/mysql/mysql-index',
         collapsable: true
       },
 	  {
-        title: 'MySql 索引结构',
+        title: 'MySQL 索引结构',
         path: '/databases/mysql/index-principle',
         collapsable: true
 	  },
       {
-        title: 'MySql 聚簇索引与非聚簇索引',
+        title: 'MySQL 聚簇索引与非聚簇索引',
         path: '/databases/mysql/clustered-non-clustered',
         collapsable: true
       },
       {
-        title: 'MySql 事务',
+        title: 'MySQL 事务',
         path: '/databases/mysql/affairs',
         collapsable: true
       },
       {
-        title: 'MySql 锁',
+        title: 'MySQL 锁',
         path: '/databases/mysql/lock',
         collapsable: true
       },

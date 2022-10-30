@@ -2,11 +2,11 @@
 
 ## 什么是索引
 
-**官方定义**：一种帮助 MySql 提高查询速率的数据结构
+**官方定义**：一种帮助 MySQL 提高查询速率的数据结构
 
 索引：
 + 一种数据结构
-+ 帮助 MySql 高效获取数据的数据结构
++ 帮助 MySQL 高效获取数据的数据结构
 + 存储在文件系统中
 + 索引的文件存储形式与存储引擎有关
 + 索引文件的结构
@@ -128,6 +128,6 @@ show index from tbl_name
 
 ## 参考文档
 
-[MySql 索引](https://www.bilibili.com/video/BV19y4y127h4?p=1)
+[MySQL 索引](https://www.bilibili.com/video/BV19y4y127h4?p=1)
 
 （完）

@@ -1,8 +1,8 @@
-# MySql 数据持久化
+# MySQL 数据持久化
 
-思考：MySql 的数据持久化的问题
+思考：MySQL 的数据持久化的问题
 
-## 安装 MySql
+## 安装 MySQL
 
 ### 搜索镜像
 
@@ -16,13 +16,13 @@ docker pull mysql # 拉取最新的镜像
 
 docker pull mysql:5.7 # 拉取指定版本的镜像
 ```
-### 运行 MySql 容器
+### 运行 MySQL 容器
 
 ::: danger 注意
-创建 MySql 时，必须要设置密码
+创建 MySQL 时，必须要设置密码
 :::
 
-在 docker hub 上找到 MySql 查看使用方式
+在 docker hub 上找到 MySQL 查看使用方式
 ```
 $ docker run --name some-mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw -d mysql:tag
 ```

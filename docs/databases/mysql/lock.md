@@ -1,4 +1,4 @@
-# MySql 锁
+# MySQL 锁
 
 作用：为了解决资源(数据库中的数据)竞争的问题
 
@@ -115,6 +115,6 @@ commit/rollback;
 
 [InnoDB 存储引擎](https://dev.mysql.com/doc/refman/8.0/en/innodb-locking.html)
 
-[MySql 锁](https://www.bilibili.com/video/BV1x54y1979n?spm_id_from=333.337.search-card.all.click)
+[MySQL 锁](https://www.bilibili.com/video/BV1x54y1979n?spm_id_from=333.337.search-card.all.click)
 
 （完）

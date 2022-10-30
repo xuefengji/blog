@@ -1,4 +1,4 @@
-# MySql 事务
+# MySQL 事务
 
 ## 什么是事务
 
@@ -109,6 +109,6 @@ A、I、D 都是为了保证 C
 
 ## 参考文档
 
-[MySql 事务](https://www.bilibili.com/video/BV1x54y1979n?spm_id_from=333.337.search-card.all.click)
+[MySQL 事务](https://www.bilibili.com/video/BV1x54y1979n?spm_id_from=333.337.search-card.all.click)
 
 （完）
