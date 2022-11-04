@@ -17,7 +17,7 @@
 
 场景：需要根据用户输入 url 的不同，调用不同的函数，实现不同的操作
 
-commons.py 中定义了 3 个函数：
+`commons.py` 中定义了 3 个函数：
 ```python
 # commons.py
 
@@ -55,7 +55,7 @@ if __name__ == '__main__':
 显然这种代码是不合理的？那怎么办？
 
 思路：
-+ 观察 visit.py 中的代码发现用户输入的 url 字符串和相应调用的函数名好像
++ 观察 `visit.py` 中的代码发现用户输入的 url 字符串和相应调用的函数名好像
 + 如果能用这个字符串直接调用函数就好了
 + 但是字符串是不能用来调用函数的，这就可以使用到 Python 的反射机制
 
@@ -72,18 +72,18 @@ if __name__ == '__main__':
    if __name__ == '__main__':
        run()
 ```
-func = getattr(commons,inp)
-+ 通过 getattr() 函数，从 commons 模块里，查找到和 inp 字符串“外形”相同的函数名，并将其返回，然后赋值给 func 变量
-+ 变量 func 此时就指向那个函数，func() 就可以调用该函数
+`func = getattr(commons,inp)`
++ 通过 `getattr()` 函数，从 commons 模块里，查找到和 inp 字符串“外形”相同的函数名，并将其返回，然后赋值给 func 变量
++ 变量 func 此时就指向那个函数，`func()` 就可以调用该函数
 
-getattr() 函数的使用方法：
+`getattr()` 函数的使用方法：
 ```python
 getattr(commons,inp)
 接收 2 个参数，前面的是一个类或者模块，后面的是一个字符串
 ```
 但上述代码有个问题，就是如果输入的 url 在 commons 中没有同名函数，就会报错，那怎么办？
 
-可以使用 hasattr() 来进行判断
+可以使用 `hasattr()` 来进行判断
 
 再次修改 visit 的代码：
 ```python
@@ -113,7 +113,7 @@ getattr(commons,inp)
 
 使用 Python 内置的 `__import__(字符串参数)` 动态地导入同名的模块
 
-再修改一下 visit.py 的代码：
+再修改一下 `visit.py` 的代码：
 ```python
 # visit.py
 
@@ -145,8 +145,8 @@ def run():
         print("404")
 ```
 ::: tip 注意
-+ `__import__()` 默认只会导入最开头的圆点左边的目录，也就是lib
-+ 需传入 **fromlist=True**
++ `__import__()` 默认只会导入最开头的圆点左边的目录，也就是 lib
++ 需传入 **`fromlist=True`**
 :::
 
 （完）
