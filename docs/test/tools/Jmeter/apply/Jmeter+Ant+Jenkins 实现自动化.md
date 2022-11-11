@@ -94,6 +94,26 @@ Apache Ant(TM) version 1.10.12 compiled on October 13 2021
             </fileset>
         </copy>
     </target>
+    <!--自动发送测试报告到指定邮箱-->
+    <property name="mail_from" value="ABC@139.com" />
+    <!--修改邮箱授权码-->
+	<property name="password" value="XXXXXXXXX" />   
+	<!--mail_to:收件人列表，多个收件人之间使用都好间隔 -->
+	<property name="mail_to" value="ABC@139.com" />
+	<property name="mailport" value="25" />
+	<!--邮箱需要开通smtp服务 -->
+	<property name="mailhost" value="smtp.139.com" />
+	<target name="mail">
+		<echo>发送测试报告</echo>
+		<loadfile property="report" srcFile="${jmeter.result.htmlName}" encoding="UTF-8" />
+		<mail from="${mail_from}" tolist="${mail_to}" mailport="${mailport}" mailhost="${mailhost}" user="${mail_from}" password="${password}" subject="jmeter 测试报告" messagemimetype="text/html">
+			<message>			
+				本轮构建的结果如下：
+				${report}
+			</message>
+		</mail>
+	<!--<delete file="${jmeter.result.htmlName}" />-->
+	</target>
 </project>
 ```
 
