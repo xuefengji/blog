@@ -51,11 +51,11 @@ Rest：
 
 **未使用 Rest 规范前**：
 
-需要设计 4 个接口，XXX/api/add、XXX/api/delete、XXX/api/query、XXX/api/update，难维护
+需要设计 4 个接口，`XXX/api/add`、`XXX/api/delete`、`XXX/api/query`、`XXX/api/update`，难维护
 
 **使用 Rest 规范**：
 
-只需要设计一个接口 XXX/api，使用不同的请求方式 GET、POST 、DELETE、PUT，维护方便
+只需要设计一个接口 `XXX/api`，使用不同的请求方式 GET、POST 、DELETE、PUT，维护方便
 
 #### 理解返回一致的数据格式：
 
