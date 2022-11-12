@@ -66,7 +66,7 @@ public void write( String key, Object data )
 
 - 读 Redis：热数据基本都在 Redis
 - 写 MySQL：增删改都是操作 MySQL 
-- 更新 Redis 数据：MySQ的数据操作binlog，来更新到Redis
+- 更新 Redis 数据：MySQ的数据操作 binlog，来更新到 Redis
 
 **Redis 更新**：
 
