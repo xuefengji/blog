@@ -66,14 +66,14 @@ public void write( String key, Object data )
 
 - 读 Redis：热数据基本都在 Redis
 - 写 MySQL：增删改都是操作 MySQL 
-- 更新 Redis 数据：MySQ的数据操作 binlog，来更新到 Redis
+- 更新 Redis 数据：MySQL 的数据操作 binlog，来更新到 Redis
 
 **Redis 更新**：
 
 - 数据操作主要分为两大块
   - 一个是全量（将全部数据一次写入到 Redis）
-  - 一个是增量（实时更新）这里说的是增量,指的是mysql的update、insert、delate变更数据
-- 读取 binlog后分析 ，利用消息队列,推送更新各台的redis缓存数据
+  - 一个是增量（实时更新）这里说的是增量,指的是 mysql 的 update、insert、delate 变更数据
+- 读取 binlog 后分析 ，利用消息队列,推送更新各台的redis缓存数据
   - 一旦 MySQL 中产生了新的写入、更新、删除等操作，就可以把 binlog 相关的消息推送至 Redis
   - Redis 再根据 binlog 中的记录，对 Redis 进行更新
   - 这种机制，很类似 MySQL 的主从备份机制，因为 MySQL 的主备也是通过 binlog 来实现的数据一致性
