@@ -110,10 +110,14 @@ module.exports = [
                 path: '/databases/redis/cache',
                 collapsable: true
             },
-          {
-            title: 'Redis 的 ACL 安全策略',
-            path: '/databases/redis/access-control-list'
-          },
+            {
+              title: 'Redis 的 ACL 安全策略',
+              path: '/databases/redis/access-control-list'
+            },
+            {
+              title: 'Redis 与 MySQL 数据同步机制',
+              path: '/databases/redis/redis-mysql-data-consistency'
+            },
         ]
     },
 ]
