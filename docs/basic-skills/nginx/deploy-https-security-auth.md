@@ -66,9 +66,9 @@ rz -be  # 上传文件
 ```bash {2,8-13,21-23}
 server {
     listen 443 ssl;
-    server_name  www.fedbook.cn fedbook.cn;
+    server_name  www.snowji.cn snowji.cn;
 
-    root /sites/fedbook;
+    root /sites/snowji;
     index index.html;
 
     ssl_certificate  /usr/local/nginx/cert/证书名称.pem;
@@ -85,7 +85,7 @@ server {
 
 server {
     listen 80;
-    server_name  www.fedbook.cn fedbook.cn;
+    server_name  www.snowji.cn snowji.cn;
     return 301 https://$host$request_uri;
 }
 ```

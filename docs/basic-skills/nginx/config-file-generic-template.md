@@ -134,9 +134,9 @@ mkdir vhosts
 ```bash
 server {
     listen 80;
-    server_name  www.fedbook.cn fedbook.cn;
+    server_name  www.snowji.cn snowji.cn;
 
-    root /sites/fedbook;
+    root /sites/snowji;
     index index.html;
 
     location / {
@@ -154,7 +154,7 @@ server {
         add_header Cache-Control "public";
     }
 
-    access_log  /var/log/nginx/access/fedbook.log;
+    access_log  /var/log/nginx/access/snowji.log;
 }
 ```
 
