@@ -26,8 +26,8 @@
 ```bash {8,9}
 server {
     listen 80;
-    server_name  www.fedbook.cn;
-    root /sites/fedbook;
+    server_name  www.snowji.cn;
+    root /sites/snowji;
     index index.html;
 
     location /admin {
