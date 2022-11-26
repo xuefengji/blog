@@ -70,8 +70,6 @@ docker cp nginx01:etc/ ./
 
 ![top](./images/7.png)
 
-
-
 ### 从主机复制文件到容器
 
 复制主机文件到容器

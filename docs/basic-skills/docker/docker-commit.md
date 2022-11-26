@@ -36,6 +36,4 @@ centos       centos7   eeb6ee3f44bd   6 months ago    204MB
 
 ```
 
-
 （完）
-​	
