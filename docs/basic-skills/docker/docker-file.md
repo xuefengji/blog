@@ -22,7 +22,7 @@
 ## DockerFile 优势
 
 + DockerFile 是面向开发的，以后要发布项目，做镜像，就需要编写 DockerFile 文件
-+ Docker 镜像逐渐成企业交付的标准，必须要掌握！
++ Docker 镜像逐渐成企业交付的标准，必须要掌握
 + DockerFile 构建镜像文件，定义了一切的步骤，源代码
 + Dockerfile 的体积小，容易进行快速迁移部署
 + 环境构建流程记录在 DockerFile 中，能够直观的看到镜像构建的顺序和逻辑
