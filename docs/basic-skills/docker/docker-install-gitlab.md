@@ -1,5 +1,3 @@
-
-
 # Docker 环境安装 GitLab
 
 ## 前言
@@ -68,10 +66,9 @@ EOF
 ### 配置环境
 
 + 修改 ssh 端口（如果主机端口使用的不是 22 端口）
-
-  修改文件：${GITLAB_DIR}/config/gitlab.rb
-  找到这一行：# gitlab_rails['gitlab_shell_ssh_port'] = 22
-  把 22 修改为你的宿主机端口（这里是 2222）。然后将注释去掉
+  + 修改文件：${GITLAB_DIR}/config/gitlab.rb
+  + 找到这一行：# gitlab_rails['gitlab_shell_ssh_port'] = 22
+  + 把 22 修改为你的宿主机端口（这里是 2222）。然后将注释去掉
 
 + 重新启动容器 `$ sh start.sh`
 
