@@ -24,6 +24,8 @@ module.exports = {
   '/databases/mysql/': require('../databases/mysql/sidebar'),
   '/databases/redis/': require('../databases/redis/sidebar'),
   '/databases/es/': require('../databases/es/sidebar'),
+  /* --------- 深入学习 --------- */
+  '/depth-learning/structure-algorithm/': require('../depth-learning/structure-algorithm/sidebar'),
   /* --------- 项目相关 --------- */
   '/project/problems/': require('../project/problems/sidebar'),
   /* --------- 产品与运营 --------- */

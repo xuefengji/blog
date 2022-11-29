@@ -75,6 +75,12 @@ module.exports = [
     ]
   },
   {
+    text: '深入学习',
+    items: [
+      {text: '数据结构与算法', link: 'depth-learning/structure-algorithm/'}
+    ]
+  },
+  {
     text: '项目相关',
     items: [
       {text: '问题记录', link: '/project/problems/'},
