@@ -14,7 +14,7 @@
 
 - 首先在指定镜像上创建一个可写的容器层
 - 然后使用指定的命令（COMMAND）启动它
-- docker run 相当于执行了两个 API：/containers/create、/containers/(id)/start
+- docker run 相当于执行了两个 API：`/containers/create`、`/containers/(id)/start`
 
 常用 options 说明：
 

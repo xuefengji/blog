@@ -20,7 +20,7 @@
 + docker 是一个 C/S 结构的系统
 + docker 的守护进程运行在主机上
 + 通过 Socket 从客户端访问
-+ docker-Server 接收到 docker-Client的指令，就会执行这个命令
++ docker-Server 接收到 docker-Client 的指令，就会执行这个命令
 
 ![hello](./images/拉取运行原理.jpg)
 
