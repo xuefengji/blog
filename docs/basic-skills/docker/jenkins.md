@@ -25,7 +25,7 @@ CONTAINER ID   IMAGE                 COMMAND                  CREATED         ST
 ```
 
 + 配置镜像加速
-进入 /var/jenkins_mount 目录，修改 hudson.model.UpdateCenter.xml 里的内容
+进入 `/var/jenkins_mount` 目录，修改 hudson.model.UpdateCenter.xml 里的内容
 
 将 url 修改为 https://mirrors.tuna.tsinghua.edu.cn/jenkins/updates/update-center.json
 
@@ -33,9 +33,7 @@ CONTAINER ID   IMAGE                 COMMAND                  CREATED         ST
 
 ![jenkins](./images/jenkins1.png)
 
-打开上图中提示的 /var/jenkins_mount/secrets/initialAdminPassword 文件获取密码
-
-输入密码，并确定
+打开上图中提示的 `/var/jenkins_mount/secrets/initialAdminPassword` 文件获取密码，输入密码，并确定
 
 + 进入安装插件页，这里选择第一种种方式，并选择推荐的插件安装
 
