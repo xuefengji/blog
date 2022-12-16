@@ -11,13 +11,13 @@ fatal: index-pack failed  <br>
 error: RPC failed; curl 18 transfer closed with outstanding read data remaining
 </div>
 
-网上有一些方法：复制项目到码云（比较麻烦），修改 hosts 文件（以前有用），调整 Git 的传输缓存（仅用于解决文件过大导致的下载慢问题，不能解决网络本身带来的问题）
+网上有一些方法：复制项目到码云（比较麻烦），修改 hosts 文件（以前有用），调整 Git 的传输缓存（仅用于解决文件过大导致的下载慢问题，不能解决网络本身带来的问题）。
 
-最终方案还得是给 Git 设置代理模式
+最终方案还得是给 Git 设置代理模式。
 
 ## 解决方案
 
-需要用到几个命令，注意下面的端口 `1080` 和 `1081` 都是我自行配置的，每个人情况可能不一样
+需要用到几个命令，注意下面的端口 `1080` 和 `1081` 都是我自行配置的，每个人情况可能不一样。
 
 * 1080：SOCKS 端口
 * 1081：HTTP 端口（某些软件默认的 SOCKS + 1）
@@ -29,7 +29,7 @@ error: RPC failed; curl 18 transfer closed with outstanding read data remaining
 但其它代理模式的命令还是要整理一下的，万一需要用到呢~
 :::
 
-全局代理：使用后作用于全局环境，太极端，一般不推荐
+全局代理：使用后作用于全局环境，太极端，一般不推荐。
 
 ```bash
 # 使用 http 协议(推荐)
@@ -38,7 +38,7 @@ git config --global http.proxy 127.0.0.1:1081
 git config --global http.proxy socks5://127.0.0.1:1080
 ```
 
-局部代理：在 github clone 的仓库内执行，不是很方便，一般不推荐
+局部代理：在 github clone 的仓库内执行，不是很方便，一般不推荐。
 
 ```bash
 # 使用 http 协议(推荐)
