@@ -40,8 +40,6 @@ Git 支持 https 和 git 两种传输协议，例如在 GitHub 在 clone 代码�
   <img src="./images/github-add-ssh-key.png" alt="Add SSH key">
 </div>
 
-
-
 ### 修改 git 的 remote url
 
 在本地的某个仓库目录内使用命令 `git remote -v` 查看你当前的 remote url：
@@ -72,6 +70,6 @@ origin git@github.com:[your-github-id]/[repo-name].git (push)
 
 和 https 拉取方式不同的是，https 方式需要每次提交前都手动输入用户名和密码，ssh 的方式配置完毕后 Git 都会使用你本地的私钥和远程仓库的公钥进行验证是否是一对秘钥，从而简化了操作流程。
 
-但是如果使用的是 Windows 电脑，在使用 ssh 的方式登录过一次后，Windows 操作系统的凭据管理器会记录我们的登录信息，下次操作就不用频繁输入账号密码了。这很方便，所以我一般还是采用 ssh 的方式来操作 Git
+但是如果使用的是 Windows 电脑，在使用 ssh 的方式登录过一次后，Windows 操作系统的凭据管理器会记录我们的登录信息，下次操作就不用频繁输入账号密码了。这很方便，所以我一般还是采用 ssh 的方式来操作 Git。
 
 （完）

@@ -2,7 +2,7 @@
 
 ## 前言
 
-rebase 在 Git 中是一个非常有魅力的命令，使用得当会极大提高自己的工作效率；相反，如果乱用会给团队中其他人带来麻烦
+rebase 在 Git 中是一个非常有魅力的命令，使用得当会极大提高自己的工作效率；相反，如果乱用会给团队中其他人带来麻烦。
 
 它的作用简要概括为：可以对某一段线性提交历史进行编辑、删除、复制、粘贴；因此，合理使用 rebase 命令可以使我们的提交历史干净、简洁
 
@@ -20,7 +20,7 @@ a7b8f93: feat: modify b
 7092a92: Initial commit
 ```
 
-其实，中间的对 b 的 3 次提交 完全可以合并成一次 commit，这个时候 rebase 就很有用了
+其实，中间的对 b 的 3 次提交 完全可以合并成一次 commit，这个时候 rebase 就很有用了。
 
 ### 1. 执行 rebase -i 命令
 
@@ -33,8 +33,8 @@ git rebase -i 5f5d89a
 **注意**：
 
 * `git rebase -i [startPoint] [endPoint]`
-* 前开后闭区间，这里的 `[startPoint]` 指目标 commit 的前一个 commit（即上述示例中的 `5f5d89a: feat: modify a`)。 因为三个 commit 肯定要基于上一个 commit 来合并成新的 commit
-* **谨慎使用 `[endPoint]`**，省略即默认表示从起始 commit 一直到最后一个，但是一旦填写了，则表示 `[endPoint]` 后面的 commit 全部不要
+* 前开后闭区间，这里的 `[startPoint]` 指目标 commit 的前一个 commit（即上述示例中的 `5f5d89a: feat: modify a`)。 因为三个 commit 肯定要基于上一个 commit 来合并成新的 commit。
+* **谨慎使用 `[endPoint]`**，省略即默认表示从起始 commit 一直到最后一个，但是一旦填写了，则表示 `[endPoint]` 后面的 commit 全部不要。
 
 ### 2. 进入 Interact 交互界面
 
@@ -47,8 +47,8 @@ git rebase -i 5f5d89a
 
 **说明**：
 
-* 最上面三行，就是刚刚选中的三个 commit，按时间先后顺序依次往下排序(**和 git log 的展示顺序是反的**，查看的时候需要注意)
-* 前面的三个 pick 就是下面 Commands 展示的一系列命令中的第一个 p，也就是使用 commit
+* 最上面三行，就是刚刚选中的三个 commit，按时间先后顺序依次往下排序(**和 git log 的展示顺序是反的**，查看的时候需要注意)。
+* 前面的三个 pick 就是下面 Commands 展示的一系列命令中的第一个 p，也就是使用 commit：
   * pick：保留该 commit（缩写：p）
   * reword：保留该 commit，但我需要修改该 commit 的注释（缩写：r）
   * edit：保留该 commit，但我要停下来修改该提交（不仅仅修改注释）（缩写：e）
