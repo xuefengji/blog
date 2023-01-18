@@ -7,6 +7,10 @@ module.exports = [
           {
             title: 'logging 日志重复输出',
             path: '/project/problems/python/logging-repeat-output',
+          },
+          {
+            title: '虚拟环境设置问题',
+            path: '/project/problems/python/pycharm-environment-issues',
           }
         ]
      },
