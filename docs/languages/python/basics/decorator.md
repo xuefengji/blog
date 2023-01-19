@@ -138,7 +138,9 @@ test is running!
 
 **流程**：
 
-![pytest](../images/decorator1.png)
+<div style="text-align: center;">
+    <img src="../images/decorator1.png" height="200" alt="">
+</div>
 
 至此，上面的需求已经实现了，但用 timer 来装饰函数时，都要写上下面的一行代码
 
@@ -155,9 +157,6 @@ def test(parameter):
     print("test is running!") 
 test()
 ```
-
-
-
 
 ### 被装饰的函数带参
 
@@ -313,9 +312,8 @@ task1 = timer(task1)
 
 ## 类装饰器
 
-上面讲的都是函数装饰器
-
-类装饰器的原理与函数装饰器的一致
+上面讲的都是函数装饰器，类装饰器的原理与函数装饰器的一致
+**原理**：类中重写 `__call__`方法，使得类可以像函数一样被调用
 
 ### 不带参类装饰器
 
