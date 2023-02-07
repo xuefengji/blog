@@ -19,16 +19,6 @@ module.exports = [
           {text: 'Pytest', link: '/test/frameworks/pytest/'},
         ]
       },
-      // {
-      //   text: '测试进阶',
-      //   items: [
-      //     { text: '测试基础', link: '/test/basic-essentials/' },
-      //     { text: '接口测试', link: '/test/interface-test/' },
-      //     { text: '性能测试', link: '/test/performance-test/' },
-      //     { text: '自动化测试',link: '/test/auto-test/'},
-      //     { text: '安全测试', link: '/test/safety-test/' },
-      //   ]
-      // },
       {
         text: '测试工具',
         items: [
@@ -61,9 +51,19 @@ module.exports = [
     ]
   },
   {
-    text: '编程语言',
+    text: '编程学习',
     items: [
-      {text: 'Python', link: '/languages/python/basics/'},
+      // {text: '前端学习',
+      //  items:[
+      //    {text: 'Git', link: '/basic-skills/git/'}
+      //   ]
+      // },
+      {
+        text: '后端学习',
+        items: [
+          {text: 'Python', link: '/languages/python/basics/'}
+        ]
+      }
     ]
   },
   {
