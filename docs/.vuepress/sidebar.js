@@ -19,6 +19,7 @@ module.exports = {
   '/basic-skills/Jenkins/': require('../basic-skills/Jenkins/sidebar'),
   '/basic-skills/regular/': require('../basic-skills/regular/sidebar'),
   /* --------- 编程语言 --------- */
+  '/languages/JavaScript/': require('../languages/JavaScript/sidebar'),
   '/languages/python/': require('../languages/python/sidebar'),
   /* --------- 数据库 --------- */
   '/databases/mysql/': require('../databases/mysql/sidebar'),
