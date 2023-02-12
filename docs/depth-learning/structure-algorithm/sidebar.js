@@ -1,7 +1,7 @@
 module.exports = [
   {
     title: '数据结构与算法',
-    // path: '/depth-learning/structure-algorithm/',
+    path: '/depth-learning/structure-algorithm/',
     collapsable: false,
     children: [
       {
