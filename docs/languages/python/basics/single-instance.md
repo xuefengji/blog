@@ -102,7 +102,39 @@ __init__ is call
 1772512061104
 1772512061104
 ```
-结果可以看出实例对象地址相同
+结果可以看出实例对象地址相同，但上面的代码会有个问题，就是每次都要进行初始化，既然是同一个对象的话，应该只需要进行一次初始化。我们改造下这个例子，定义一个类属性标记（_initialized）表示是否第一次执行初始化动作：
+
+```python
+class A:
+    _initialized = False
+    def __new__(cls, *args, **kwargs):
+        print('__new__ is call')
+        if not hasattr(cls,"_instance"):
+            cls._instance = super().__new__(cls)
+        return cls._instance
+
+    def __init__(self):
+        if not self._initialized:
+            print('__init__ is call')
+            self._initialized = True
+
+a1 = A()
+a2 = A()
+a3 = A()
+print(id(a1))
+print(id(a2))
+print(id(a3))
+
+结果：
+__new__ is call
+__init__ is call
+__new__ is call
+__new__ is call
+
+1772512061104
+1772512061104
+1772512061104
+```
 
 ### 方式三：使用装饰器实现
 
@@ -135,8 +167,6 @@ print(id(cls2))
 2323106588384
 2323106588384
 ```
-
-
 
 ### 方式四：使用元类实现
 
@@ -171,4 +201,3 @@ print(v2)
 <__main__.Foo object at 0x0000015BB8167DF0>
 ```
 
-（完）
